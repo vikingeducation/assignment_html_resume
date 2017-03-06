@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
+	<!-- <link rel="stylesheet" type="text/css" href="main.css"> -->
+	<meta charset="utf-8">
 	<title>Ben Kautt | Software Engineer</title>
 </head>
 <body>
@@ -70,14 +71,168 @@
 				</li>
 				<li>Soft Skills
 					<ul>
-						<li>Able to see the big picture, but always keep the details in mind</li>
 						<li>Well-versed in working with diverse teams</li>
 						<li>Highly adaptable</li>
+						<li>Able to see the big picture, but always keep the details in mind</li>
 						<li>Constantly striving to learn more</li>
 					</ul>
 				</li>
 			</ul>
 		</section>
+		<hr>
+		<section>
+			<h2>Work Experience</h2>
+			<table>
+				<thead>
+					<tr>
+						<th scope="col">Time</th>
+						<th scope="col">Company</th>
+						<th scope="col">Location</th>
+						<th scope="col">Position Title</th>
+						<th scope="col">Responsibilities</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>January, 2011 &ndash; Present</td>
+						<td>Blakesberg Photography</td>
+						<td>San Francisco, CA</td>
+						<td>Network Administrator</td>
+						<td>
+							<ul>
+								<li>Developed metric tracking web application to manage our database of over 1.7 million images</li>
+								<li>Redesigned network from the ground up, reducing network load by %60 and providing internal high-availability through redundant design and protocols</li>
+								<li>Researched, negotiated, and built storage architecture using high-density chassis, reducing our per-chassis expansion costs by 314%, increasing our throughput by 800%, and has allowed easy scalability to over 140TB</li>
+								<li>Established backup solution that includes incremental backups, encrypted offsite storage, and routine testing of backups</li>
+								<li>Responsible for administration and troubleshooting of Ubuntu and OS X servers, as well as OS X and iOS based devices</li>
+								<li>Provide technical support and training for systems and end users on a 24x7 basis</li>
+							</ul>
+						</td>
+					</tr>
+					<tr>
+						<td>May, 2008 &ndash; January, 2011</td>
+						<td>Blakesberg Photography</td>
+						<td>San Francisco, CA</td>
+						<td>Lead Digital Technician</td>
+						<td>
+							<ul>
+								<li>Streamlined pre-press procedures for book productions of 15,000+ copies, ensuring the team can deliver the project to the client within deadline and in budget</li>
+								<li>Formed guidelines for processing and retouching of all photos</li>
+								<li>Retouch and prepare photos for distribution to 1,000,000+ circulation magazines and corporations</li>
+								<li>Assisted on all photography shoots</li>
+							</ul>
+						</td>
+					</tr>
+					<tr>
+						<td>July, 2007 &ndash; December, 2011</td>
+						<td>Kautt Photographics</td>
+						<td>San Francisco, CA</td>
+						<td>Owner &amp; Digital Technician</td>
+						<td>
+							<ul>
+								<li>Retouched photos on commercial photography shoots</li>
+								<li>Rented and configured digital editing station on photography shoots</li>
+								<li>Maintained onsite and offsite backups of images from shoots</li>
+							</ul>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</section>
+		<hr>
+		<section>
+			<h2>Volunteering</h2>
+			<table>
+				<thead>
+					<tr>
+						<th scope="col">Time</th>
+						<th scope="col">Organization</th>
+						<th scope="col">Role</th>
+						<th scope="col">Location</th>
+						<th scope="col">Responsibilities</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>March, 2013 &ndash; Present</td>
+						<td>Ritz Racing</td>
+						<td>Mechanic</td>
+						<td>Northern California</td>
+						<td>
+							<ul>
+								<li>Maintain all motorcycles during large, multi-day races</li>
+								<li>Ensure motorcycles pass tech inspection</li>
+								<li>Set up data acquisition systems and analyze data after races</li>
+							</ul>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</section>
+		<hr>
+		<section>
+			<h2>Education</h2>
+			<table>
+				<thead>
+					<tr>
+						<th scope="col">Time</th>
+						<th scope="col">School</th>
+						<th scope="col">Location</th>
+						<th scope="col">Degree Earned</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>July 2006 &ndash; July 2007</td>
+						<td>Hallmark Institute of Photography</td>
+						<td>Turner's Falls, MA</td>
+						<td>Associates Degree in Photography</td>
+					</tr>
+				</tbody>
+			</table>
+		</section>
+		<hr>
+		<section>
+			<h2>Achievements</h2>
+			<ul>
+				<li><h3>Internet Backbone for Sony Q Music at Music Festival</h3></li>
+				<p>Sony contracted Blakesberg Photography Inc. to publish videos and photos to social media in order to drive consumers into their tent at Summer Camp Music Festival. We were awarded the contract two weeks before the start of the event and due to the time and budget constraints, we were limited to a local ADSL provider. Since Sony was letting fans try out their audio subscription service in their tent, one ADSL line would not provide enough bandwidth for the 15 workstations plus mobile devices. I was able to procure equipment at a 40% savings, allowing us to aggregate 6 ADSL lines and establish a 2 mile wireless connection to the Sony tent to meet their demands. The project was finished under budget and the client had a smile on their face.</p>
+				<li><h3>Image &amp; Video Metrics Database</h3></li>
+				<p>Blakesberg Photography Inc. is responsible for the scanning, licensing and archival of 6000+ images from a recently deceased photographer. We needed a way to keep track of these photos so I wrote a MySQL driven Perl CGI program that maintains all of the metadata for each image and keeps track of metrics regarding the state of the images (retouching progress, payment due, etc.). It imports and organizes any new images as they are put on the server, renders previews, and updates any changes to the metadata or metrics. The web GUI allows users to find and view an image, as well as viewing the metadata and track any needed metrics. Since we are scanning film images, being able to see exactly what images have been scanned and their status has increased our efficiency threefold.</p>
+
+				<p>I later utilized this code to develop a database to keep track of our offline video storage as our video production increased. Users can search for what is on each drive, the space remaining, and other pertinent info. This allows users to ascertain available drives and retrieve the video content they need conveniently and consistently.</p>
+
+				<p>After learning Python, I re-wrote the backend in Python on my own time because, well Python is wonderful!</p>
+			</ul>
+		</section>
+		<hr>
+		<section>
+			<h2>Hobbies &amp; Interests</h2>
+			<ul>
+				<li>Climbing</li>
+				<li>Backpacking</li>
+				<li>Photography</li>
+				<li>Anything mechanical</li>
+				<li>Anything with a circuit board</li>
+				<li>Woodworking</li>
+			</ul>
+		</section>
+		<hr>
+		<section>
+			<h2>References</h2>
+				<p>Available upon request</p>
+		</section>
+		<hr>
+		<footer>
+			<strong>
+				<h1>Ben Kautt<br>
+				&mdash;Software Engineer</h1>
+				<address>
+					San Francisco, CA
+				</address>
+				<a href="http://www.google.com/recaptcha/mailhide/d?k=01GKcj_kWAF2ZkG8g6ElSqMg==&amp;c=jo2HyOeuIzUPIZ_UYMEOzsZf2bxLIy5yzgkPyqpvdZA=" onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\x3d01GKcj_kWAF2ZkG8g6ElSqMg\x3d\x3d\x26c\x3djo2HyOeuIzUPIZ_UYMEOzsZf2bxLIy5yzgkPyqpvdZA\x3d', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;" title="Reveal this e-mail address">b...</a>@gmail.com
+			</strong>
+		</footer>
 	</main>
 </body>
 </html>
