@@ -1,0 +1,27 @@
+html { font-size: 100% }
+
+h2 {
+    font-size: 1.25em;
+    color: #6aa8dc;
+    font-weight: 200;
+}
+
+li {
+    background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/29841/arrow.png") 0 50% no-repeat;
+    background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/29841/arrow.svg") 0 50% no-repeat;
+    list-style-type: none;
+    padding-left: 12px;
+}
+
+h1.footer {
+    font-size: 0.75em;
+}
+
+header h1 { font-size: 2em }
+
+section h1 {
+font-size: 1.75em;
+font-variant: all-small-caps;
+}
+
+
