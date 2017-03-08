@@ -10,10 +10,15 @@ h2 {
 }
 
 li {
-    background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/29841/arrow.png") 0 50% no-repeat;
-    background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/29841/arrow.svg") 0 50% no-repeat;
+    background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/29841/arrow.png") 0 5px no-repeat;
+    background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/29841/arrow.svg") 0 5px no-repeat;
     list-style-type: none;
     padding-left: 12px;
+}
+
+ul.sublist li {
+    list-style: circle;
+    background: none;
 }
 
 .clearfix::before,
