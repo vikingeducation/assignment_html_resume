@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<head>
+  <title> Ania Borowska - Software Engineer - Resume
+<head>
+<body>
+  <header>
+    <h1> Ania Borowska - Software Engineer </h1>
+    <address> 18 Burgh Street | N1 8HF London | UK </address>
+    <a href="mailto:ania.nnk@gmail.com"> e-mail: ania.nnk@gmail.com </a>
+    <hr>
+  </header>
+  <section>
+    <h2> Career Goals </h2>
+     My objective is to create useful to society and accesible software. I am up for never ending journey to learn and develop new tech and personal skills.
+     I would like be part of a dynamic team with thriving working environment and a meaningful vision for the better global future for all.
+  </section>
+  <section>
+   <h2> Skills </h2>
+    <ol>
+      <li>Programming Languages</li>
+      <li>Databases</li>
+      <li>Platforms</li>
+      <li>Version Control</li>
+      <li>Operating Systems</li>
+      <li>Other Tools</li>
+      <li>Soft Skills</li>
+    </ol>
+  </section>
+  <section>
+    <h2> Work Experience </h2>
+    <table>
+      <thead>
+        <tr>
+          <th> Time </th>
+          <th> Name </th>
+          <th> Location </th>
+          <th> Position Title </th>
+          <th> Responsibilities </th>
+          <th> Contact Info </th>
+        </tr>
+       </thead>
+      <tbody>
+        <tr>
+          <td> Dec 2015 - Jan 2017 </td>
+          <td> Ania Borowska Acupuncture </td>
+          <td> London </td>
+          <td> Self-employed Acupuncturist </td>
+          <td> Self-marketing, delivering Acupuncture services to my patients</td>
+          <td> myself </td>
+        </tr>
+        <tr>
+          <td> Dec 2013 - now </td>
+          <td> Self-employed </td>
+          <td> London </td>
+          <td> Supporting Artist </td>
+          <td> Supporting Artist for major feature film productions and tv series</td>
+          <td> myself </td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+  <section>
+   <h2> Education </h2>
+    <table>
+     <thead>
+      <tr>
+       <th> Time </th>
+       <th> School </th>
+       <th> Location </th>
+       <th> Degree </th>
+     </tr>
+    </thead>
+   <tbody>
+    <tr>
+      <td> Sept 2012 - Dec 2015 </td>
+      <td> College of Chinese Medicine </td>
+      <td> London </td>
+      <td> Diploma in Acupuncture and Chinese Herbal Medicine </td>
+    </tr>
+   </tbody>
+  </section>
+  <section>
+    <h2> Hobbies and Interests </h2>
+     <ul>
+      <li> Exploring new cities, making connections and living in constant motion - at the moment I live in Berlin/Barcelona/London. </li>
+      <li> Active lifestyle: cycling, snowboarding, long walks in the nature, pilates, dancing </li>
+      <li> Observing human interactions, reflecting upon people's hidden motives - looking for patterns and ways to achieve better understanding of
+       personalities of others including my own </li>
+      <li> Natural medicine: gathering information and trying it out on myself, friends and family to heal common diseases </li>
+     </ul>
+   </section>
+  <section>
+   <h2> References </h2>
+    Available upon request.
+  </section>
+  <footer>
+   <strong> Ania Borowska - Software Engineer
+   <address> 18 Burgh Street | N1 8HF London | UK </address>
+   <a href="mailto:ania.nnk@gmail.com"> e-mail: ania.nnk@gmail.com </a> </strong>
+  </footer>
+ </body>
+</html>
