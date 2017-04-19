@@ -42,6 +42,9 @@ ul li {list-style-type: square; position: relative;}
 /* =a styles */
 a:link, a:active, a:focus, a:visited, a:hover {color: #444; text-decoration: none;}
 
+
+
+/* media styles  */
 @media screen and (min-width: 320px) {
     html, body {margin: 0; padding: 0; text-shadow: none;}
 
