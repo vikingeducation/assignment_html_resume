@@ -1,2 +1,2 @@
 # assignment_html_resume
-Build an HTML5 resume to jump start your job search
+My unstyled <a href="https://alanmodia.github.io/assignment_html_resume/" target="_blank" rel="noopener noreferrer">resume</a>.
