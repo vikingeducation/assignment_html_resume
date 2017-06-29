@@ -123,4 +123,5 @@ Training new department hires how to use the current internal cataloging databas
 </strong>
 </footer>
 </section>
+</body>
 </html>
