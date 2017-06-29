@@ -1,3 +1,3 @@
 # assignment_html_resume
 Build an HTML5 resume to jump start your job search
-Alexander Sachs
+by Alexander Sachs
