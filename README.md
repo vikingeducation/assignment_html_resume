@@ -103,7 +103,7 @@ Training new department hires how to use the current internal cataloging databas
     <td>Available Upon Request</td>
   </tr>
   <tr>
-    <td>Justine Lui</td>
+    <td>Justine Lai</td>
     <td>Verification Team Lead, BackTrack Reports</td>
     <td>Available Upon Request</td>
   </tr>
