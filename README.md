@@ -90,6 +90,7 @@ Training new department hires how to use the current internal cataloging databas
     <th>Name</th>
     <th>Title, Company</th>
     <th>Contact Info</th>
+    </tr>
   </thead>
   <tbody>
   <tr>
@@ -110,13 +111,16 @@ Training new department hires how to use the current internal cataloging databas
   </tbody>
 </table>
 </section>
-<section>
 <hr>
+<section>
 <footer>
-<strong><p>Ashleigh Chun | Software Engineer</p
+<strong>
+<p>Ashleigh Chun | Software Engineer</p>
  <address>
    184 Suydam St, Apt 3L<br>
    Brooklyn, NY 11221<br>
    <a href = mailto:ashleigh.chun@gmail.com>ashleigh.chun@gmail.com</a>
-  </address></strong>
+  </address>
+</strong>
 </footer>
+</section>
