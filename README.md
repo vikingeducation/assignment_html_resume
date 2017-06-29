@@ -1,15 +1,14 @@
 <!DOCTYPE html>
-
+  <html lang="en">
 <head>
-<html lang="en">
-<meta charset="utf-8">
+  <meta charset="utf-8">
 </head>
  <header>
  <h1>Ashleigh Chun | Software Engineer</h1>
   <address>
     184 Suydam St, Apt 3L<br>
     Brooklyn, NY 11221<br>
-    <a href = mailto:ashleigh.chun@gmail.com>ashleigh.chun@gmail.com</a>
+    <a href="mailto:ashleigh.chun@gmail.com">ashleigh.chun@gmail.com</a>
   </address>
  <hr>
  </header>
