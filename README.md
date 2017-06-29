@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 
 <head>
-<title>Ashleigh Chun's Resume</title>
 <html lang="en">
 <meta charset="utf-8">
 </head>
