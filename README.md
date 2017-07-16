@@ -1,2 +1,11 @@
-# assignment_html_resume
-Build an HTML5 resume to jump start your job search
+### *Matt Wilson*
+##### HTML Resume Assignment
+[***My HTML Resume***](https://matleewilson.github.io/html_resume)
+<br>
+It's just an outline for now, but I will come back to it later!!
+<br>
+<br>
+Nothin' to see 'ere
+<br>
+Thanks for lookin' though;)
+
