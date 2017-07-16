@@ -1,5 +1,11 @@
 ### *Matt Wilson*
+##### HTML Resume Assignment
+<a href="matleewilson.github.io/html_resume" target="_blank">My HTML Resume</a>
 <br>
-##### assignment_html_resume
+It's just an outline for now, I will come back to it later!!
 <br>
-Build an HTML5 resume to jump start your job search
+<br>
+Nothin' to see 'ere
+<br>
+Thanks for lookin' ;)
+
