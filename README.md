@@ -1,3 +1,2 @@
-# assignment_html_resume
-Build an HTML5 resume to jump start your job search
-David
+# David San | Aspiring Software Engineer
+Link to Resume : https://sannrs.github.io/assignment_html_resume/
