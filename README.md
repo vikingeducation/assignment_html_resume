@@ -1,2 +1,4 @@
 # assignment_html_resume
-Build an HTML5 resume to jump start your job search
+Steven Li
+
+to view the static webpage go to https://steven4354.github.io/assignment_html_resume/
