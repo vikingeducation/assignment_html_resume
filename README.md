@@ -1,3 +1,7 @@
-# assignment_html_resume
-Build an HTML5 resume to jump start your job search
-Brian Carroll
+<header>
+  <h1> Brian Carroll | Software Engineer </h1>
+    <address>322 East Walnut Street <br>
+    Long Beach, NY 11561 <br>
+    <a href=mailto:briancarroll112@gmail.com></address>
+    <hr>
+  </header>
