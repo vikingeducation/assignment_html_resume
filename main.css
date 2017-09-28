@@ -1,0 +1,177 @@
+/*Fonts*/
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:300,400,700);
+
+
+
+html,
+html a,
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+    font-family: PT Sans, sans-serif;
+    font-size: 15px;
+    overflow-x: hidden;
+    padding: 0 !important;
+}
+
+main {
+  margin: 20px 20px 20px 20px;
+}
+
+.wrapper {
+    z-index: 1;
+}
+
+p {
+  font-family: PT Sans, sans-serif;
+  font-weight: 300;
+  color: 999#;
+  letter-spacing: 0.5px;
+  line-height: 1.8;
+}
+
+a {
+  color: #333743;
+  font-family: PT Sans, sans-serif;
+}
+
+a:focus,
+a:hover {
+  text-decoration: none;
+}
+
+a:hover {
+  outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Roboto Condensed, sans-serif;
+  color: #333743;
+  letter-spacing: 0.5px;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+    font-family: Roboto Condensed, sans-serif;
+}
+
+caption {
+  font-family: Roboto Condensed, sans-serif;
+  color: #333743;
+  letter-spacing: 0.5px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+table {
+  margin: 40px 20px 40px 20px;
+}
+
+.table > tbody > tr > td {
+    padding: 15px;
+    color: #999;
+    border-top: 1px solid #ececec;
+}
+
+.table > tbody > tr > th {
+    padding: 15px;
+    border-top: 1px solid #ececec;
+}
+
+.table > thead > tr > td {
+    padding: 15px;
+    color: #333743;
+    border-top: 1px solid #ececec;
+}
+
+.table > thead > tr > th {
+    padding: 15px;
+    border-bottom: 0px;
+    border-top: 1px solid #ececec;
+}
+
+.table > tfoot > tr > td {
+    padding: 15px;
+    border-top: 1px solid #ececec;
+}
+
+.table > tfoot > tr > th {
+    padding: 15px;
+    border-top: 1px solid #ececec;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+  right: 20px;
+}
+
+.clear {
+  clear: both;
+  left: 20px;
+}
+
+.address-box {
+  padding: 10px;
+  border: 1px solid #333743;
+  border-radius: 5px;
+  position: relative;
+
+}
+
+.col-4 {
+  margin: 0 1.5%;
+  width: 20%;
+}
+.col-8 {
+  margin: 0 1.5%;
+  width: 60%;
+}
+
+.container:before,
+.container:after {
+  content: "";
+  display: table;
+}
+.container:after {
+  clear: both;
+}
+.container {
+  clear: both;
+  *zoom: 1;
+  box-shadow: 3px 3px 8px grey;
+  margin: 10px 30px 10px 30px;
+  padding: 20px;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+.skills {
+  padding: 10px;
+  border: 1px solid #333743;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+hr {
+  border: 0.5px solid #333743;
+}
+
+.no-mrg {
+  margin: 0px;
+}
