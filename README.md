@@ -1,2 +1,1 @@
-# assignment_html_resume
-Build an HTML5 resume to jump start your job search
+Link to my HTML resume: https://sarahschoonmaker.github.io/assignment_html_resume/
