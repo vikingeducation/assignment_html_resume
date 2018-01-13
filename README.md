@@ -1,2 +1,2 @@
-# assignment_html_resume
-Build an HTML5 resume to jump start your job search
+Holly Erickson
+Resume deployed at https://holly-e.github.io/Holly_Erickson_assignment_html_resume/
