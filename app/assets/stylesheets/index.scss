@@ -1,0 +1,64 @@
+.contact-pic-section {
+  margin: 50px 0;
+   h1 {
+      margin-bottom: 20px;
+  }
+  align-items: center;
+}
+
+.email-icon {
+  margin-left: 5em;
+}
+
+.github-icon {
+  margin-right: 5em;
+}
+
+.octicon {
+  fill: gray;
+}
+
+.octicon:hover {
+  fill: black;
+}
+
+.name-heading {
+  font-size: 4em;
+  margin-top: .5em;
+  margin-bottom: .5em;
+}
+
+.about-me h2 {
+  font-size: 3em;
+  margin: .5em 0;
+}
+
+.res-section h1,
+.soft-skills-section h3 {
+  background-color: #808080;
+  font-size: 2em;
+  padding-top: .5em;
+  padding-bottom: .5em;
+}
+
+.skills-section h3 {
+  font-size: 1.5em;
+}
+
+.res-section h1,
+.soft-skills-section {
+  text-align: center;
+}
+
+.res-section h1:hover,
+.soft-skills-section h3:hover {
+  color: white;
+}
+
+.skills-section p {
+  padding-top: .5rem;
+}
+
+.education {
+  text-align: center;
+}

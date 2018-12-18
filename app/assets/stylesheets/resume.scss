@@ -1,0 +1,53 @@
+// Place all the styles related to the resume controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.resume-name-block img {
+    margin-top: 1.5em;
+    height: 311px;
+}
+
+#nav-buttons {
+  flex-basis: 5em;
+  background-color: gray;
+}
+
+#nav-buttons:hover {
+  background-color: black;
+}
+
+.octicon {
+  fill: gray;
+}
+
+.octicon:hover {
+  fill: black;
+}
+
+.octicon-mark-github {
+  padding-top: 7px;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.profile-pic {
+  height: 375px;
+}
+
+.res-main {
+  height: auto;
+}
+
+.name-header h1 {
+  margin-top: .5em;
+  margin-bottom: .5em;
+  font-size: 5em;
+}
+
+#name-header {
+  text-align: center;
+}

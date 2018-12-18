@@ -1,0 +1,162 @@
+<main>
+  <div class="row justify-content-center">
+    <h1 class="name-heading">Mariah Schneeberger</h1>
+  </div>
+  <hr style="width: 80%;">
+  <div class="row contact-pic-section justify-content-center">
+    <%= link_to "https://github.com/MariahAcacia" do %>
+      <%= octicon "mark-github", height: 80, width: 70, class: "pull-right github-icon" %>
+    <% end %>
+
+    <%= image_tag "IMG_5216.jpg", html: { alt:"Profile Photo" }, class: "profile-photo rounded-circle" %>
+
+    <%= mail_to "mariah.acacia@gmail.com" do %>
+      <%= octicon "mail", height: 75, width: 75, class: "pull-right email-icon" %>
+    <% end %>
+  </div>
+  <hr style="width: 80%;">
+  <div class="row about-me justify-content-center">
+    <div class="col-sm-10">
+      <h2 class="text-center">Web Developer</h2>
+      <hr>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+  </div>
+
+  <div class="row res-section justify-content-center">
+    <div class="col-sm-10">
+      <hr>
+      <h1 data-toggle="collapse" href="#skillsCollapse" role="button" aria-expanded="false" aria-controls="skillsCollapse">
+        Skills
+      </h1>
+      <hr>
+      <div class="collapse" id="skillsCollapse">
+        <div class="card card-body">
+
+          <div class="skills-section">
+            <h3 style="float: left;">Programming Languages: </h3>
+            <p style="float: right;">Ruby, RoR, HTML, CSS, Sass, SQL, learning JavaScript</p>
+            <div style="clear: both;"></div>
+          </div>
+          <hr>
+
+          <div class="skills-section">
+            <h3 style="float: left;">Databases: </h3>
+            <p style="float: right;">PostgreSQL, MySQL, SQLite3, MongoDB</p>
+            <div style="clear: both;"></div>
+          </div>
+          <hr>
+
+          <div class="skills-section">
+            <h3 style="float: left;">Operating Systems: </h3>
+            <p style="float: right;">Mac OS X, Windows</p>
+            <div style="clear: both;"></div>
+          </div>
+          <hr>
+
+          <div class="skills-section">
+            <h3 style="float: left;">Platforms: </h3>
+            <p style="float: right;">Heroku, AWS</p>
+            <div style="clear: both;"></div>
+          </div>
+         <hr>
+
+         <div class="skills-section">
+           <h3 style="float: left;">Version Control: </h3>
+           <p style="float: right;">GitHub</p>
+           <div style="clear: both;"></div>
+         </div>
+         <hr>
+
+         <div class="skills-section">
+           <h3 style="float: left;">Other Tools:</h3>
+           <p style="float: right;">Balsamiq, PivotalTracker, Moqups, TDD, RSpec, Capybara, Adobe Photoshop, Bootstrap</p>
+           <div style="clear: both;"></div>
+         </div>
+
+       </div>
+
+     </div>
+
+     <div class="education">
+       <hr>
+       <h1 data-toggle="collapse" href="#educationCollapse" role="button" aria-expanded="false" aria-controls="educationCollapse">
+         Education
+       </h1>
+       <hr>
+       <div class="collapse" id="educationCollapse">
+         <div class="card card-body">
+           <div class="row">
+             <hr>
+             <div class="col-sm-6">
+               <h3>The Viking Code School</h3>
+               <hr>
+               <p>Full Stack Engineering with Ruby on Rails</p>
+               <p>Web Design with JavaScript (in progress)</p>
+               <p>Winter 2018</p>
+             </div>
+             <div class="col-sm-6">
+               <h3>The University Of Montana</h3>
+               <hr>
+               <p>Bachelors of Science in Business Administration</p>
+               <p>Major in Finance</p>
+               <p>Spring 2009</p>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+
+     <div class="experience">
+       <hr>
+       <h1 data-toggle="collapse" href="#expCollapse" role="button" aria-expanded="false" aria-controls="expCollapse">
+         Experience
+       </h1>
+       <hr>
+       <div class="collapse" id="expCollapse">
+         <div class="card card-body">
+           <div class="row">
+             <hr>
+             <div class="col">
+               <h4>Viking Code School Projects</h4>
+               <p><%= link_to "Danebook", "https://guarded-temple-55538.herokuapp.com/" %> - An interactive social media site based on Facebook.</p>
+               <p><%= link_to "Viking Store Administration Portal", "https://viking-store.herokuapp.com/admin/dashboard"%> - A backend administration analynics portal for an E-Commerce website.</p>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+
+     <div class="soft-skills-section">
+       <hr>
+       <h3 data-toggle="collapse" href="#softsCollapse" role="button" aria-expanded="false" aria-controls="softsCollapse">
+         Soft Skills
+       </h3>
+       <hr>
+       <div class="collapse" id="softsCollapse">
+         <div class="card card-body">
+           <div class="row">
+             <div class="col-sm-6">
+               <p>Use creativity and logic to problem-solve effectively.</p>
+               <p>Self motivated with a strong work ethic.</p>
+               <p>Organized and efficient.</p>
+
+             </div>
+             <div class="col-sm-6">
+               <p>Adaptable and flexible to change.</p>
+               <p>Profficent verbal and written communicator.</p>
+               <p>I enjoy working on my own or as part of a team.</p>
+             </div>
+           </div>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+    <p style="text-align: center;">References available upon request.</p>
+    <hr>
+    <p class="text-center">© Mariah Schneeberger 2018</p>
+
+  </div>
+
+</main>

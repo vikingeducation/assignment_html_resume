@@ -1,0 +1,122 @@
+<main style="font-family: 'Georgia';">
+  <div class="row name-header justify-contact-center">
+    <div class="col-sm-10 offset-sm-1">
+      <h1 id="name-header">
+        Mariah Schneeberger <br>
+        Web Developer
+      </h1>
+      <hr>
+
+    </div>
+  </div>
+
+  <div class="row res-main justify-content-center">
+    <div class="col-sm-7 resume-name-block">
+
+      <div id="accordion">
+
+          <div class="card-header nav-container" id="headingOne">
+            <button id="nav-buttons" class="btn btn-secondary" data-toggle="collapse" data-target="#aboutMe" aria-expanded="true" aria-controls="aboutMe">
+              About Me
+            </button>
+            <button id="nav-buttons" class="btn btn-secondary" data-toggle="collapse" data-target="#collapseSkills" aria-expanded="true" aria-controls="collapseSkills">
+              Skills
+            </button>
+            <button id="nav-buttons" class="btn btn-secondary" data-toggle="collapse" data-target="#collapseEducation" aria-expanded="true" aria-controls="collapseEducation">
+              Education
+            </button>
+            <button id="nav-buttons" class="btn btn-secondary" data-toggle="collapse" data-target="#collapseExperience" aria-expanded="true" aria-controls="collapseExperience">
+              Experience
+            </button>
+            <button id="nav-buttons" class="btn btn-secondary" data-toggle="collapse" data-target="#collapseSoftSkills" aria-expanded="true" aria-controls="collapseSoftSkills">
+              Soft Skills
+            </button>
+            <%= mail_to "mariah.acacia@gmail.com" do %>
+              <%= octicon "mail", height: 50, width: 50 %>
+            <% end %>
+            <%= link_to "https://github.com/MariahAcacia" do %>
+              <%= octicon "mark-github", height: 40, width: 50  %>
+            <% end %>
+          </div>
+
+          <div id="aboutMe" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+            <div class="card">
+              <div class="card-body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+            </div>
+          </div>
+
+          <div id="collapseSkills" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+            <div class="card">
+              <div class="card-body">
+                <h6><strong>Programming Languages:</strong> Ruby, RoR, HTML, CSS, Sass, SQL, learning JavaScript</h6>
+                <hr>
+                <h6><strong>Databases:</strong> PostgreSQL, MySQL, SQLite3, MongoDB</h6>
+                <hr>
+                <h6><strong>Operating Systems:</strong> Mac OS X, Windows</h6>
+                <hr>
+                <h6><strong>Platforms:</strong> Heroku, AWS</h6>
+                <hr>
+                <h6><strong>Version Control:</strong> GitHub</h6>
+                <hr>
+                <h6><strong>Other Tools:</strong> Balsamiq, PivotalTracker, Moqups, TDD, RSpec, Capybara, Adobe Photoshop, Bootstrap</h6>
+              </div>
+            </div>
+          </div>
+
+          <div id="collapseEducation" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+            <div class="card">
+              <div class="card-body">
+                <h4>The Viking Code School ~ Winter 2018 </h4>
+                  <p>Full Stack Engineering with Ruby on Rails</p>
+                  <p>Web Design with JavaScript (in progress)</p>
+                <h4>The University Of Montana ~ Spring 2009 </h4>
+                  <p>Bachelors of Science in Business Administration</p>
+                  <p>Major in Finance</p>
+              </div>
+            </div>
+          </div>
+
+          <div id="collapseExperience" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+            <div class="card">
+              <div class="card-body">
+                <h4>Viking Code School Projects</h4>
+                <p><%= link_to "Danebook", "https://guarded-temple-55538.herokuapp.com/" %> - An interactive social media site based on Facebook.</p>
+                <p><%= link_to "Viking Store Administration Portal", "https://viking-store.herokuapp.com/admin/dashboard"%> - A backend administration analynics portal for an E-Commerce website.</p>
+              </div>
+            </div>
+          </div>
+
+          <div id="collapseSoftSkills" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+            <div class="card">
+              <div class="card-body">
+                <p>Use creativity and logic to problem-solve effectively.</p>
+                <p>Self motivated with a strong work ethic.</p>
+                <p>Organized and efficient.</p>
+                <p>Adaptable and flexible to change.</p>
+                <p>Profficent verbal and written communicator.</p>
+                <p>I enjoy working on my own or as part of a team.</p>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+
+    <div class="col-sm-3 resume-name-block">
+      <%= image_tag "us.jpg", html: { alt:"Profile Photo" }, class: "profile-pic" %>
+    </div>
+
+  </div>
+  <div class="row">
+    <div class="col-sm-10 offset-sm-1">
+      <hr>
+      <p style="text-align: center;">References available upon request.</p>
+      <hr>
+      <p class="text-center">© Mariah Schneeberger 2018</p>
+    </div>
+  </div>
+
+</main>

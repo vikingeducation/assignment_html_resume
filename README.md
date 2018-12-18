@@ -1,5 +1,24 @@
-# assignment_html_resume
-Build an HTML5 resume to jump start your job search
-+
-+Mariah Schneeberger Resume:
-https://mariahacacia.github.io/assignment_html_resume/
+# README
+
+This README would normally document whatever steps are necessary to get the
+application up and running.
+
+Things you may want to cover:
+
+* Ruby version
+
+* System dependencies
+
+* Configuration
+
+* Database creation
+
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...
